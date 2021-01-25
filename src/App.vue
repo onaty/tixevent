@@ -1,9 +1,14 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <router-link :to="'/'" class="navbar-brand mb-0 h1">
+          Tix Country
+        </router-link>
+      </div>
+    </nav>
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
 <style lang="scss">
