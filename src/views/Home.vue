@@ -23,7 +23,7 @@
             <td>{{ user.ip_address }}</td>
             <td>
               <router-link :to="'/country/' + user.name" class="btn btn-link">
-                <span>View Country</span>
+                <span>Guess Country</span>
               </router-link>
             </td>
           </tr>
@@ -42,7 +42,7 @@
               <li class="list-group-item">User ID : {{ user.id }}</li>
               <li class="list-group-item">
                 <router-link :to="'/country/' + user.name" class="btn btn-link">
-                  <span>View Country</span>
+                  <span>Guess Country</span>
                 </router-link>
               </li>
             </ul>
